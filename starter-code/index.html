@@ -1,13 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>CSS Lab | Responsive Cloning | Product Hunt</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Product Hunt</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="buscador">
+      <img src="images/logo.png" alt="P">
+      <input type="text" placeholder="Discover your next favorite thing...">
+      <p>... Login</p>
+    </div>
+
+    <div class="navegacio">
+      <ul>
+        <li>Home</li>
+        <li>Tech</li>
+        <li>Games</li>
+        <li>Podcasts</li>
+        <li>Books</li>
+        <li>Bots</li>
+        <li>Developer Tools</li>
+        <li>iMessage Apps</li>
+        <li>iPhone</li>
+        <li>Photography Tools</li>
+        <li>
+          <img src="images/arrow-prev.png" alt="Flechas prev">
+          <img src="images/arrow-next.png" alt="Flecha next">
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+      <img src="images/hand.png" alt="Mano">
+      <h4>Welcome to Product Hunt</h4>
+      <p>Get the best new products in your inbox, daily.</p>
+      <input type="text" placeholder="Your email">
+      <button>SUSCRIBE</button>
+      <img src="images/close.png" alt="Cruz" class="cross">
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <section>
+      <article>
+
+        <div>
+          <h3>Popular this week</h3>
+          <img src="images/close.png" alt="Cruz" class="cross">
+        </div>
+
+        <div class="separador"></div>
+
+        <div>
+          <img src="images/popular-this-week/app-1.png" alt="">
+          <h4>Duolingo Bots</h4>
+          <p>AI-powered characters to teach language conversation</p>
+
+          <div class="elements">
+            <div class="likes">
+              <img src="images/votes.png" alt="Flecha">
+              <label>1460</label>
+            </div>
+            <div class="comments">
+              <img src="images/comments.png" alt="Comment">
+              <label>49</label>
+            </div>
+            <div class="phone">
+              <div>IPHONE</div>
+              <p>+ 2</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="separador"></div>
+
+        <div>
+          <img src="images/popular-this-week/app-2.png" alt="">
+          <h4>Tribe 2.0</h4>
+          <p>Introducing Augmented Messaging</p>
+          <div class="elements">
+            <div class="likes">
+              <img src="images/votes.png" alt="Flecha">
+              <label>1465</label>
+            </div>
+            <div class="comments">
+              <img src="images/comments.png" alt="Comment">
+              <label>188</label>
+            </div>
+            <div class="phone">
+              <div>ANDROID</div>
+              <p>+ 4</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="separador"></div>
+
+        <div>
+          <img src="images/popular-this-week/app-3.png" alt="">
+          <h4>Workplace by Facebook</h4>
+          <p>Connect everyone in your company and turn ideas into action</p>
+          <div class="elements">
+
+            <div class="likes">
+              <img src="images/votes.png" alt="Flecha">
+              <label>1003</label>
+            </div>
+            <div class="comments">
+              <img src="images/comments.png" alt="Comment">
+              <label>80</label>
+            </div>
+            <div class="phone">
+              <div>ANDROID</div>
+              <p>+ 2</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div>
+          <img src="images/arrow-down.png" alt="Flecha">
+          <label>SHOW MORE</label>
+        </div>
+      </article>
+
+      <article>
+        <div>
+          <h3>Today</h3>
+          <div class="pop-new">
+            <p>POPULAR</p>
+            <div class="separador"></div>
+            <p>NEWEST</p>
+          </div>
+        </div>
+
+        <div class="separador"></div>
+
+        <div>
+          <img src="images/today/app-1.png" alt="">
+          <h4>Sprayscape</h4>
+          <p>A perfectly imperfect VR-ish camera experiment, by Google</p>
+          <div class="elements">
+            <div class="likes">
+              <img src="images/votes.png" alt="Flecha">
+              <label>82</label>
+            </div>
+            <div class="comments">
+              <img src="images/comments.png" alt="Comment">
+              <label>8</label>
+            </div>
+            <div class="phone">
+              <div>ANDROID</div>
+              <p>+ 3</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="separador"></div>
+
+        <div>
+          <img src="images/today/app-2.png" alt="">
+          <h4>Ask Gary Vee</h4>
+          <p>The unofficial Gary Vee persona chatbot on Messenger!</p>
+          <div class="elements">
+            <div class="likes">
+              <img src="images/votes.png" alt="Flecha">
+              <label>21</label>
+            </div>
+            <div class="comments">
+              <img src="images/comments.png" alt="Comment">
+              <label>9</label>
+            </div>
+            <div class="phone">
+              <div>GET SHIT DONE</div>
+              <p>+ 1</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="separador"></div>
+
+        <div>
+          <img src="images/today/app-3.png" alt="">
+          <h4>The Electron Wheel</h4>
+          <p>Turn your standard bicycle into an electric bike.</p>
+          <div class="elements">
+            <div class="likes">
+              <img src="images/votes.png" alt="Flecha">
+              <label>23</label>
+            </div>
+            <div class="comments">
+              <img src="images/comments.png" alt="Comment">
+              <label>2</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="separador"></div>
+
+      </article>
+    </section>
+  </main>
+
+  <!-- ASIDE -->
+  <aside>
+    <article>
+      <div class="title">
+        <h4>Kittybot for Slack.</h4>
+        <img src="images/close.png" alt="Cruz">
+      </div>
+      <p>A friendly feline that sends you cool new things</p>
+      <button>ADD KITTYBOT TO SLACK</button>
+    </article>
+
+    <article>
+      <h3>UPCOMING LIVE CHATS</h3>
+
+      <div class="separador"></div>
+
+      <div>
+        <img src="images/ppl/person1.jpeg" alt="Persona">
+        <div>
+          <h5>Adam Besvinick</h5>
+          <p>VC at Deep Fork Capital</p>
+          <button>REMIND ME</button>
+        </div>
+      </div>
+
+      <div>
+        <img src="images/ppl/person2.jpg" alt="Persona">
+        <div>
+          <h5>Susan David</h5>
+          <p>Author of Emotionally Guilty</p>
+          <button>REMIND ME</button>
+        </div>
+      </div>
+
+      <div>
+        <img src="images/ppl/person3.jpg" alt="Persona">
+        <div>
+          <h5>Avid Larizadeh Duggan</h5>
+          <p>General Partner at GV</p>
+          <button>REMIND ME</button>
+        </div>
+      </div>
+
+      <div>
+        <img src="images/ppl/person4.jpeg" alt="Persona">
+        <div>
+          <h5>Katerina Markov Schneider</h5>
+          <p>Founder and CEO of Ritual</p>
+          <button>REMIND ME</button>
+        </div>
+      </div>
+
+      <div>
+        <img src="images/ppl/person5.jpg" alt="Persona">
+        <div>
+          <h5>Jocelyn Glei</h5>
+          <p>Master of Productivity, founder and author...</p>
+          <button>REMIND ME</button>
+        </div>
+      </div>
+
+      <div class="separador"></div>
+
+      <p>SEE MORE</p>
+
+    </article>
+
+  </aside>
+
 </body>
+
 </html>
